@@ -1,0 +1,46 @@
+html { 
+    background: rgba(0, 0, 0, 0.8) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
+.page-header {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: lighter;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: white;
+    width: fit-content; 
+    height: fit-content;
+}
+
+.photography {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    max-width: 375px;
+    max-height: 266.13px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+img {
+    width: 375px;
+    height: 266.13px;
+}
+
